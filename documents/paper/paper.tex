@@ -3,7 +3,7 @@
 \usepackage[ngerman]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{blue}
+\usepackage{xcolor} %Farben
 \usepackage{hyperref}
 \usepackage{csquotes}
 \usepackage[a4paper]{geometry}
@@ -39,7 +39,8 @@
 }
 
 \tableofcontents
-
+\parindent=0em
+\parskip=0.5em
 \chapter{Einleitung}
 
 KI ist ein Teilgebiet der Informatik. Die Definitionen für KI sind noch recht vage, da sich das Forschungsgebiet der KI schnell und ständig weiterentwickelt. Aber die weit verbreitete ist,
@@ -57,7 +58,6 @@ Je mehr KI genutzt wird desto besser wird sie. Da sie durch Erfolg und Misserfol
 
 \section{ Maschinelles Lernen}
 
-
 Diese Algorythmen können lernen sich zu verbessern indem sie analysieren wie diese Daten wiedergegeben sind. Man nennt dies \textbf{maschinelles Lernen}.
 Maschinelles Lernen unterschiedet man zwischen \textcolor{blue}{überwachtem}, unüberwachtem und bestärkendem Lernen. Bestärkendes Lernen braucht im Vergleich zu
 überwachtem Lernen kein Ausgangsdatenmaterial um trainiert zu werden. Es funtioniert auf einer Trial-and-Error-Verfahrens Basis. Dabei macht die KI
@@ -67,6 +67,7 @@ sich mit Weltmeistern des Brettspiels Go messen kann und sich das Spielen selber
 schon vorgegeben. Die Trainingsdaten sind also gelabelt. Wenn die KI nach dem Trainingsprozess nicht gelabelte Daten bekommt ordnet sie sie einem zuvor erlernten
 Muster einer Lösung zu. Ein Beispiel für überwachtes Lernen ist Personenerkennung auf Bildern oder automatische Erkennung von Spam E-Mails.
 Unüberwachtes Lernen funktioniert gleich wie überwachtes Lernen, ausser dass keine Labels (also vorgegebene Lösungen) beim Trainingsprozess verwendet werden.
+
 
 \chapter{KI ist sie sie intelligent?}
 
